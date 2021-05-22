@@ -1,11 +1,15 @@
-# GO-CLI-101
+# Go-cli-101
 
 ## Prerequisite
 
-`brew install gox`
+## Initial project
 
-`brew install dep`
+`go mod init my-calc`
 
-## Ref
+`go get -u github.com/spf13/cobra/cobra`
 
-https://github.com/spf13/cobra
+`cobra init --pkg-name my-calc`
+
+## REF
+
+https://towardsdatascience.com/how-to-create-a-cli-in-golang-with-cobra-d729641c7177
